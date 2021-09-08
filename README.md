@@ -4,7 +4,7 @@ This is my final project for [Harvard's CS50x (2021)](https://cs50.harvard.edu/x
 <br/>
 
 ## 1. Overview
-RelaX50 is a Chrome extension that plays a collection of relaxing music based on user's choice. It stimulates a minimalistic radio station that helps study/meditate/relax/sleep.
+RelaX50 is a Chrome extension that plays a collection of relaxing music based on user's choice. It stimulates a minimalistic radio station that can help study 🧑‍🎓, meditate 💆, relax 😌, and sleep 😴.
 
 <br/>
 
