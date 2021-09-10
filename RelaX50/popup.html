@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="popup.css">
+  </head>
+
+  <body>
+    <img id="logo" src="chrome-extension://ngofljiacabbifflikgodfnfbmamgejh/images/logo.png" class="center">
+    <h6>v. 1.0</h6>
+
+    <h1 class="title">Pick a track, and relax away.</h1>
+    <hr>
+    <h3 class="title">Nature</h3>
+
+    <div class="card center">
+      <h2>01</h2>
+      <img class="cover" src="chrome-extension://ngofljiacabbifflikgodfnfbmamgejh/images/rain.jpg">
+      <audio id="rain" src="chrome-extension://ngofljiacabbifflikgodfnfbmamgejh/audios/rain.mp3" type="audio/mp3"></audio>
+      <div id="play" class="play"></div>
+      <div id="controls" class="controls">
+        <input id="slider" type="range" value="0" max="100" class="slider">
+        <p id="time" class="time">0:00</p>
+        <p class="endtime">3:25</p>
+      </div>
+    </div>
+
+    <div class="card center">
+      <h2>02</h2>
+      <img class="cover" src="chrome-extension://ngofljiacabbifflikgodfnfbmamgejh/images/sea.jpg">
+      <audio src="chrome-extension://ngofljiacabbifflikgodfnfbmamgejh/audios/sea.mp3" type="audio/mp3"></audio>
+      <div class="play"></div>
+      <div class="controls">
+        <input type="range" value="0" max="100" class="slider">
+        <p>0:00</p>
+        <p class="endtime">8:19</p>
+      </div>
+    </div>
+
+
+    <span class="title">
+      <h3>Lo-Fi</h3>
+    </span>
+
+    <div class="card center">
+      <h2>03</h2>
+      <img class="cover" src="chrome-extension://ngofljiacabbifflikgodfnfbmamgejh/images/lofi.jpg">
+      <audio src="chrome-extension://ngofljiacabbifflikgodfnfbmamgejh/audios/lofi.mp3" type="audio/mp3"></audio>
+      <div class="play"></div>
+      <div class="controls">
+        <input type="range" value="0" max="100" class="slider">
+        <p>0:00</p>
+        <p class="endtime">5:13</p>
+      </div>
+    </div>
+
+    <div class="card center">
+      <h2>04</h2>
+      <img class="cover" src="chrome-extension://ngofljiacabbifflikgodfnfbmamgejh/images/lofi2.jpg">
+      <audio src="chrome-extension://ngofljiacabbifflikgodfnfbmamgejh/audios/lofi2.mp3" type="audio/mp3"></audio>
+      <div class="play"></div>
+      <div class="controls">
+        <input type="range" value="0" max="100" class="slider">
+        <p>0:00</p>
+        <p class="endtime">5:13</p>
+      </div>
+    </div>
+
+
+    <span class="title">
+      <h3>Ambient</h3>
+    </span>
+
+    <div class="card center">
+      <h2>05</h2>
+      <img class="cover" src="chrome-extension://ngofljiacabbifflikgodfnfbmamgejh/images/ambient.jpg">
+      <audio src="chrome-extension://ngofljiacabbifflikgodfnfbmamgejh/audios/ambient.mp3" type="audio/mp3"></audio>
+      <div class="play"></div>
+      <div class="controls">
+        <input type="range" value="0" max="100" class="slider">
+        <p>0:00</p>
+        <p class="endtime">7:19</p>
+      </div>
+    </div>
+
+    <div class="card center end">
+      <h2>06</h2>
+      <img class="cover" src="chrome-extension://ngofljiacabbifflikgodfnfbmamgejh/images/cosmo.jpg">
+      <audio src="chrome-extension://ngofljiacabbifflikgodfnfbmamgejh/audios/cosmo.mp3" type="audio/mp3"></audio>
+      <div class="play"></div>
+      <div class="controls">
+        <input type="range" value="0" max="100" class="slider">
+        <p>0:00</p>
+        <p class="endtime">7:30</p>
+      </div>
+    </div>
+
+    <h1 class="title footer">(2021) <a href="https://github.com/YoyoZhang24/RelaX50/blob/main/LICENSE" target="_blank">The MIT License.</a></h1>
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
